@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project>
+	<PropertyGroup>
+		<RootNamespace>$(MSBuildProjectName)</RootNamespace>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<Deterministic>false</Deterministic>
+		<OutputPath>..\bin\</OutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Include="..\SharedAssemblyInfo.cs">
+			<Link>SharedAssemblyInfo.cs</Link>
+		</Compile>
+	</ItemGroup>	
+</Project>
